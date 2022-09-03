@@ -244,7 +244,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Join Moviez Channel'url='https://telegram.dog/latestmoviezonnet')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('New Moviez'url='telegram.dog/latestmoviezonnet')]]),
         protect_content=True if pre == 'filep' else False,
         )
                     
